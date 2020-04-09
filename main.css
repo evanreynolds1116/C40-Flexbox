@@ -1,0 +1,23 @@
+header {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  height: 50px;
+}
+
+.list {
+  align-items: baseline;
+  align-content: space-around;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-flow: row wrap;
+  height: 150px;
+  justify-content: space-evenly;
+}
+
+.shop {
+  border: dotted 1px black;
+  flex-basis: 30%;
+  font-family: sans-serif;
+  padding: 5px 5px;
+}
